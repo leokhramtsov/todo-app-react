@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#root {
+  margin: 10px;
+}
+
+.todo {
+  padding: 3px;
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+}
+
+.todo:hover {
+  background-color: #f4f4f4;
+}
+
+button {
+  margin-left: 5px;
+}
